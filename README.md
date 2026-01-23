@@ -1,24 +1,23 @@
 # Study Planner / Pomodoro + Focus History
 
-A Pomodoro focus timer with session history, daily goals, and weekly stats.
+A Pomodoro focus timer that saves completed focus sessions, tracks daily goals, and shows weekly stats.
 
-## Features (MVP)
+## MVP Features
 - Pomodoro timer (25/5 + custom)
-- Saves completed focus sessions
-- Daily focus goal + progress bar
-- History list by date
+- Save every completed focus session
+- Daily goal progress bar
+- History list (date, duration)
 - Weekly focus chart + best focus time
 
 ## Data Model
 **settings**
-- pomodoro_length
-- break_length
-- daily_goal
+- pomodoro_length, break_length, daily_goal
 
 **focus_sessions**
-- id, start_time, end_time, duration, tag?
+- id, start_time, end_time, duration, tag (optional)
 
 ## Run locally
 ```bash
 npm install
 npm run dev
+
